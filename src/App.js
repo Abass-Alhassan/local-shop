@@ -1,14 +1,21 @@
 import React from "react";
 import Home from "./components/Home";
 import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
 
+import AddItem from "./components/AddItem";
+
+import ItemDetails from "./components/ItemDetails";
+import Login from "./screens/Login";
+import Register from "./screens/Register";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/additem" element={<AddItem />} />
+        <Route path="/itemDetails" element={<ItemDetails />} />
       </Routes>
     </div>
   );

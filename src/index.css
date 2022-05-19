@@ -5,7 +5,7 @@
 
 nav{
   display: flex;
-  background-color: crimson;
+  background-color: gray;
   justify-content: space-between;
 }
 ul{
@@ -20,12 +20,15 @@ li{
 a{
   text-decoration: none;
   text-transform: uppercase;
+  color:white;
 }
 h2{
   padding: 20px;
 }
 .home{
-  background-image: url('./components/Supermarkt.jpg');
+  height: 80vh;
+  width: 100%;
+  background-image: url('./img/sm2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,7 +38,7 @@ h2{
   flex-wrap: wrap;
 }
 .card{
-  margin:20 auto;
+  margin:20px auto;
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -44,9 +47,14 @@ h2{
   box-shadow: 3px 2px 3px silver;
   transition: all 0.3s ease-in-out;
   padding: 3px;
-  background-color: crimson;
+  background-color: grey;
 
 
+}
+.details-container{
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 h1{
   color:white;
@@ -63,7 +71,83 @@ p{
 img{
   margin: 5px;
 }
+.home p{
+  color:white;
+  border: 2px solid grey;
+  width: 300px;
+  margin: 10px auto;
+  height: 200px;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 100px;
+  
+}
+
 .footer{
   text-align: center;
   background-color:bisque;
+}
+.prosper{
+  background-color: grey;
+display: flex;
+justify-content: space-evenly;
+}
+
+.itemContainer{
+background-color: bisque;
+  height: 90vh;
+}
+.itemContainer input{
+  height: 5vh;
+  width: 300px;
+}
+
+.abass{
+  display: flex;
+  justify-content:space-between;
+}
+.home{
+  display: flex;
+    justify-content: space-between;
+}
+
+.Register-form {
+  border-radius: 5px;
+  box-shadow: 0.5rem;
+  display: flex;
+  width: 600px;
+  margin: 20px auto;
+  background-color: darkgrey;
+}
+
+.form {
+  align-content: space-around;
+  padding: 20px;
+}
+
+.form input {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.design {
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+.design h3 {
+  text-align: center !important;
+  margin-top: 200px;
+}
+
+.btn {
+  border-radius: 20px;
+  height: 30px;
+  width: 300px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
 }

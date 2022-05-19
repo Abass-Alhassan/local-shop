@@ -1,0 +1,15 @@
+.itemContainer{
+    border-radius: 5px;
+    width: 600px;
+    margin: 20px auto;
+    background-color: darkgray;
+}
+.item{
+    align-content: space-around;
+    padding: 20px;
+}
+.item input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
