@@ -64,7 +64,7 @@ function Register() {
           <Link to="/home">Register</Link>
         </button>
 
-        <div>
+        <div className="login-p">
           <p>I already have an account</p>
           <Link to="/login">Login</Link>
         </div>
